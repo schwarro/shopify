@@ -1,0 +1,9 @@
+<h2>Categories (<%= @categories.count %>)</h2>
+
+<ul>
+  <% @categories.each do |category| %>
+    <li>
+      <%= category.title %>
+    </li>
+  <% end %>
+</ul>
